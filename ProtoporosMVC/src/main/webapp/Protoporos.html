@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/ncode.css">
+	<title>Protoporos Customer Service</title>
+</head>
+<body style="background-color: lavender;">
+	<h1>Contact Protoporos sales team</h1>
+	<h4>Our team will answer your sales enquiry. Please fill out the form and we'll be in touch as soon as possible.</h4>
+	<hr>
+	<div class="container">
+		<form style = "font-family:verdana;" action="CustomerController" method="post">
+			<div class="mb-3">
+				<a class="navbar-brand">
+				Name:
+				<input type="text" class="form-control" id="name" name="name" placeholder="Name*"><br>
+				Email:
+				<input type="text" class="form-control" id="email" name="email" placeholder="Email*"><br>
+				Phone No:
+				<input type="text" class="form-control" name="phone" pattern="[0-9]+" placeholder="Phone No*" required><br>
+				Address:</a>
+				<br><textarea class="form-control" name="address" rows="2" placeholder="Address*"></textarea><br>
+				Fields marked with * are required<br>
+				<input type="submit" class="btn1" value="Submit"> 
+    			<input type="reset" class="btn1" value="Reset">
+    		</div><br>
+		</form>
+	</div>
+</body>
+</html>
+
